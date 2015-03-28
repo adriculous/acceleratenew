@@ -71,3 +71,9 @@ div.case-study-images img {
 	margin-bottom: 50px;
 	border: 1px solid #dddddd;
 }
+ul.homepage-featured-work {
+	list-style-type: none;
+}
+li.individual-featured-work {
+	display: inline;
+}
