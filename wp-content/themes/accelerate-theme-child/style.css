@@ -77,3 +77,6 @@ ul.homepage-featured-work {
 li.individual-featured-work {
 	display: inline;
 }
+.case-study-sidebar h5 {
+	color: #999999;
+}
