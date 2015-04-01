@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * Accelerate Marketing Child functions and definitions
  *
  * Set up the theme and provides some helper functions, which are used in the

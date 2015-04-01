@@ -11,6 +11,7 @@
 */
 
 @import url("../accelerate-theme/style.css");
+@import url("../plugins/ninja-forms/css/ninja-forms-display.css");
 
 /* new homepage styles stuff */
 .home-page {
@@ -79,4 +80,37 @@ li.individual-featured-work {
 }
 .case-study-sidebar h5 {
 	color: #999999;
+}
+
+/* NinjaForms Custom CSS
+I saw a tutorial on how to do this at
+http://ninjaforms.com/add-custom-css-to-your-ninja-forms
+but it looks really complicated.
+Not sure if this will work on the same style.css file though.
+If not I'll just try to create a separate CSS file for NinjaForms by itself.
+For now, let's experiment with using this child theme style.css.
+*/
+
+#ninja_forms_field_1_div_wrap, #ninja_forms_field_2_div_wrap {
+	width: 400px;
+	display: inline-block;
+}
+
+#ninja_forms_field_2_div_wrap {
+	float: right;
+}
+
+#ninja_forms_field_1, #ninja_forms_field_2 {
+	width: 400px;
+	font-size: 25px;
+}
+#ninja_forms_field_5 {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #45ac9d;
+	width: 200px;
+	padding: 20px;
+}
+#ninja_forms_field_5_div_wrap {
+	float: right;
 }
